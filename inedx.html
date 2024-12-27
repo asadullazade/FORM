@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson_12</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form class="container">
+      <div class="username">
+        <label class="user_label" for="username">Username </label>
+        <input
+          class="input_username"
+          autofocus
+          maxlength="10"
+          placeholder="Enter your email"
+          type="username"
+          name="username"
+          id="username"
+        />
+      </div>
+      <div class="user_password">
+        <label class="password_label" for="user_password">Password</label>
+        <input
+          class="input_password"
+          maxlength="5"
+          placeholder="Enter your password"
+          type="password"
+        />
+        <p class="label_description">
+          Your password is between 4 and 12 characters
+        </p>
+      </div>
+      <div class="user_text">
+        <label class="text_label" for="">Input Text Label</label>
+        <input class="text_input" placeholder="typing" type="text" />
+        <p class="error_text">Error message informing me of a problem</p>
+      </div>
+      <div class="user_checkbox">
+        <label class="checkbox_label" for=""
+          ><input class="checkbox_input" type="checkbox" />Remember me</label
+        >
+      </div>
+      <div class="user_radio">
+        <label class="radio_label">
+          <input type="radio" value="1" name="radio" />
+          Radio selection 1
+        </label>
+        <label class="radio_label">
+          <input type="radio" value="2" name="radio" />
+          Radio selection 2
+        </label>
+        <label class="radio_label">
+          <input type="radio" value="3" name="radio" />
+          Radio selection 3
+        </label>
+      </div>
+
+      <div class="user_dropdown">
+        <label class="dropdown_label" for=""
+          >Dropdown Title
+          <select
+            class="dropdown_select"
+            name="Dropdown option"
+            id="Dropdown option"
+          >
+            <option value="">Dropdown option 1</option>
+            <option value="">Dropdown option 2</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="cancel_next">
+        <div class="cancel"><p>cancel</p></div>
+        <div class="next"><p>next</p></div>
+      </div>
+    </form>
+
+    <!-- <form>
+      <hr />
+      <p>Choose Color</p>
+      <label for="">
+        <input name="color" type="radio" value="red" />
+        Red
+      </label>
+      <label for="">
+        <input name="color" type="radio" value="Blue" />
+        Blue
+      </label>
+      <label for="">
+        <input name="color" type="radio" value="Green" />
+        Green
+      </label>
+      <hr />
+
+      <p>What are your hobbies</p>
+      <label for="">
+        <input type="checkbox" name="hobby" value="music" />
+        Music
+      </label>
+      <label for="">
+        <input type="checkbox" name="hobby" value="Sports" />
+        Sports
+      </label>
+      <label for="">
+        <input type="checkbox" name="hobby" value="Reading" />
+        Reading
+      </label>
+
+      <hr />
+
+      <p>Enter your age</p>
+      <label for="">
+        Age
+        <input type="number" name="age" min="0" max="80" value="0" step="0.5" />
+      </label>
+      <hr />
+
+      <label for="">
+        Your tel
+        <input type="tel" name="tel" />
+      </label>
+
+      <hr />
+      <label for="">
+        Range
+        <input type="range" />
+      </label>
+
+      <label for="Date">
+        Date
+        <input type="date" name="" id="" />
+        <textarea name="name" id="" cols="30" rows="10"></textarea>
+      </label>
+
+      <label for="">
+        <select name="size" id="">
+          <option value="sm">Small</option>
+          <option value="md">Medium</option>
+          <option value="lg">Large</option>
+        </select>
+      </label>
+
+      <label for="countries"
+        >Choose country
+        <input type="countries" id="countries" />
+        <datalist id="countries">
+          <option value="Azerbaijan"></option>
+          <option value="UK"></option>
+        </datalist>
+      </label> -->
+    <!-- </form> -->
+  </body>
+</html>

@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  margin-bottom: 32px;
+  align-items: center;
+}
+
+.username {
+  display: flex;
+  flex-direction: column;
+  width: 304px;
+  margin-bottom: 32px;
+}
+
+.input_username {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  width: 564px;
+  padding: 16px;
+  margin: 8px 0px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+
+.user_label {
+  width: 564px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8;
+  padding: 0px;
+  margin: 8px 0px;
+  color: rgb(102, 102, 102);
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.user_password {
+  width: 304px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.input_password {
+  width: 564px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 16px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+
+.password_label {
+  color: rgb(102, 102, 102);
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.label_description {
+  color: rgb(102, 102, 102);
+  font-family: Noto Sans;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.user_text {
+  width: 304px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+.text_label {
+  color: rgb(102, 102, 102);
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text_input {
+  width: 564px;
+  margin: 8px 0px;
+  border: 2px solid rgb(235, 87, 87);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 16px;
+}
+
+.error_text {
+  color: rgb(235, 87, 87);
+  font-family: Noto Sans;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.user_checkbox {
+  width: 300px;
+  margin-bottom: 32px;
+}
+
+.checkbox_label {
+  display: flex;
+  gap: 16px;
+}
+
+.checkbox_input {
+  color: rgb(102, 102, 102);
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.user_radio {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.radio_label {
+  display: flex;
+  gap: 16px;
+  color: rgb(102, 102, 102);
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.user_dropdown {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+.dropdown_label {
+  color: rgb(102, 102, 102);
+  font-family: Noto Sans;
+  font-size: 12px;
+  font-weight: 600;
+}
+.dropdown_select {
+  display: flex;
+  flex-direction: column;
+}
+
+.cancel {
+  width: 172px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 16px;
+  margin: 0px 10px;
+  border: 1px solid rgb(122, 92, 250);
+  border-radius: 8px;
+  /* W Background */
+  background: rgb(255, 255, 255);
+}
